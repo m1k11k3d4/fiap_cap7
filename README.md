@@ -15,9 +15,9 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Lucas Gomes Moreira</a>
+- <a Lucas Gomes Moreira</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">André Godoi Chiovato</a>
+- <a André Godoi Chiovato</a>
 
 
 ## 📜 Descrição
