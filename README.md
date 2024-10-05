@@ -11,7 +11,7 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="www.linkedin.com/in/miki-ikeda-siscof/">Miki Ikeda</a>
+- <a href="https://www.linkedin.com/in/miki-ikeda-880a141b2/">Miki Ikeda</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
