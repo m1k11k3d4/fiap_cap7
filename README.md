@@ -87,14 +87,11 @@ Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_
 2. Execução:
 
    Execute o script milho_soja.R. O script carregará o arquivo milho_soja.xlsx e realizará os seguintes passos:
+   - Exibirá as medidas de tendência central, dispersão e separatrizes na tela.
+   - Criará um gráfico comparativo de produção de milho e soja por região.
+   - O gráfico será salvo como grafico_milho_soja.pdf e aberto automaticamente após 10 segundos.
    
-   Exibirá as medidas de tendência central, dispersão e separatrizes na tela.
-   
-   Criará um gráfico comparativo de produção de milho e soja por região.
-   
-   O gráfico será salvo como grafico_milho_soja.pdf e aberto automaticamente após 10 segundos.
-   
-   3. O script exibirá as estatísticas calculadas diretamente no terminal e abrirá o gráfico gerado no PDF.
+3. O script exibirá as estatísticas calculadas diretamente no terminal e abrirá o gráfico gerado no PDF.
 
 ## Exemplo de Execução
 Após a execução do script, você verá os resultados estatísticos formatados da seguinte maneira:
