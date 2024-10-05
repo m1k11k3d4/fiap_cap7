@@ -24,11 +24,11 @@
 
 Este repositório contém scripts desenvolvidos em R para análise estatística e visualização de dados de Produção de Milho e Soja em diversas regiões do Brasil. O projeto utiliza um arquivo Excel com informações detalhadas sobre a área colhida, produção em toneladas, quantidade de sacas (60kg), produção (kg/ha) e faixa de produção , e realiza uma série de cálculos estatísticos, gerando gráfico de Produção de Milho e Soja por Região para facilitar a interpretação dos resultados. 
 
-## Fonte dos Dados
+## 🔗 Fonte dos Dados
 
 Os dados usados para criar o arquivo milho_soja.xlsx foram obtidos do <a href="https://sidra.ibge.gov.br/tabela/5457">Sistema IBGE de Recuperação Automática (SIDRA)</a>, que fornece informações detalhadas sobre a produção agrícola no Brasil. O arquivo contém dados relacionados à área plantada, área colhida, produção e rendimento de milho e soja por estado.
 
-## Classificação das Variáveis Utilizadas
+## 🗒️ Classificação das Variáveis Utilizadas
 No arquivo milho_soja.xlsx, foram utilizadas diferentes classificações de variáveis, de acordo com suas características:
 
 1. Variável Quantitativa Discreta:
@@ -60,7 +60,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-## Funcionalidades
+## 📌 Funcionalidades
 Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_soja.xlsx, contendo as colunas referentes à produção de milho e soja.
 
 1. Cálculos Estatísticos: Funções em R foram desenvolvidas para calcular as principais medidas estatísticas das culturas analisadas.
@@ -93,7 +93,7 @@ Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_
    
 3. O script exibirá as estatísticas calculadas diretamente no terminal e abrirá o gráfico gerado no PDF.
 
-## Exemplo de Execução
+## 📄 Exemplo de Execução
 Após a execução do script, você verá os resultados estatísticos formatados da seguinte maneira:
   
    
