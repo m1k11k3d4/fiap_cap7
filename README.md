@@ -64,9 +64,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_soja.xlsx, contendo as colunas referentes à produção de milho e soja.
 
 1. Cálculos Estatísticos: Funções em R foram desenvolvidas para calcular as principais medidas estatísticas das culturas analisadas.
-- Medidas de Tendência Central: média, mediana e moda.
-- Medidas de Dispersão: variância, desvio padrão e amplitude.
-- Medidas Separatrizes (Quartis): divisão dos dados em quartis.
+   - Medidas de Tendência Central: média, mediana e moda.
+   - Medidas de Dispersão: variância, desvio padrão e amplitude.
+   - Medidas Separatrizes (Quartis): divisão dos dados em quartis.
 
 2. Visualização Gráfica: A biblioteca ggplot2 é utilizada para gerar gráficos de barras que comparam a produção entre as regiões.
 
@@ -77,11 +77,13 @@ Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_
 1. Pré-requisitos:
 
 Certifique-se de ter os pacotes readxl, ggplot2 e tidyr instalados no seu ambiente R. Você pode instalá-los com os seguintes comandos:
+  
    ```sh
    install.packages("readxl")
    install.packages("ggplot2")
    install.packages("tidyr")
     ```
+
 2. Execução: Execute o script milho_soja.R. O script carregará o arquivo milho_soja.xlsx e realizará os seguintes passos:
 
 Exibirá as medidas de tendência central, dispersão e separatrizes na tela.
