@@ -11,7 +11,7 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="www.linkedin.com/in/miki-ikeda-siscof">Miki Ikeda 1</a>
+- <a href="www.linkedin.com/in/miki-ikeda-siscof">Miki Ikeda </a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
@@ -25,8 +25,8 @@
 Este repositório contém scripts desenvolvidos em R para análise estatística e visualização de dados de produção de milho e soja em diversas regiões do Brasil. O projeto utiliza um arquivo Excel com informações detalhadas sobre a área colhida, produção em toneladas, quantidade de sacas (60kg), produção (kg/ha) e faixa de produção , e realiza uma série de cálculos estatísticos, gerando gráfico de Produção de Milho e Soja por Região para facilitar a interpretação dos resultados. 
 
 ## Fonte dos Dados
-
-Os dados usados para criar o arquivo milho_soja.xlsx foram obtidos do Sistema IBGE de Recuperação Automática (SIDRA) link: https://sidra.ibge.gov.br/tabela/5457, que fornece informações detalhadas sobre a produção agrícola no Brasil. O arquivo contém dados relacionados à área plantada, área colhida, produção e rendimento de milho e soja por estado.
+<a href="https://sidra.ibge.gov.br/tabela/5457">Sistema IBGE de Recuperação Automática (SIDRA)</a>
+Os dados usados para criar o arquivo milho_soja.xlsx foram obtidos do <a href="https://sidra.ibge.gov.br/tabela/5457">Sistema IBGE de Recuperação Automática (SIDRA)</a>, que fornece informações detalhadas sobre a produção agrícola no Brasil. O arquivo contém dados relacionados à área plantada, área colhida, produção e rendimento de milho e soja por estado.
 
 ## Classificação das Variáveis Utilizadas
 No arquivo milho_soja.xlsx, foram utilizadas diferentes classificações de variáveis, de acordo com suas características:
