@@ -82,5 +82,5 @@ Certifique-se de ter os pacotes readxl, ggplot2 e tidyr instalados no seu ambien
       install.packages("readxl")
       install.packages("ggplot2")
       install.packages("tidyr")
-    ```
+ ```
 
