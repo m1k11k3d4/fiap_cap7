@@ -52,12 +52,6 @@ No arquivo milho_soja.xlsx, foram utilizadas diferentes classificações de vari
 
 Essas variáveis foram analisadas ao longo do projeto para extrair informações úteis sobre a produção de milho e soja no Brasil.
 
-## 📁 Estrutura de pastas
-
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>scripts</b>: milho_soja.R e milho_soja.xlsx
-
 ## 📌 Funcionalidades
 Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_soja.xlsx, contendo as colunas referentes à produção de milho e soja.
 
