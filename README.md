@@ -77,7 +77,8 @@ Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_
 1. Pré-requisitos:
 
 Certifique-se de ter os pacotes readxl, ggplot2 e tidyr instalados no seu ambiente R. Você pode instalar com os seguintes comandos:
-   ```sh
+   
+   ```r
       install.packages("readxl")
       install.packages("ggplot2")
       install.packages("tidyr")
@@ -97,6 +98,7 @@ O gráfico será salvo como grafico_milho_soja.pdf e aberto automaticamente apó
 
 ## Exemplo de Execução
 Após a execução do script, você verá os resultados estatísticos formatados da seguinte maneira:
+  
    ```sh
       Estatísticas para Milho
       ============================
