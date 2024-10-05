@@ -22,7 +22,7 @@
 
 ## 📜 Descrição
 
-Este repositório contém scripts desenvolvidos em R para análise estatística e visualização de dados de produção de milho e soja em diversas regiões do Brasil. O projeto utiliza um arquivo Excel com informações detalhadas sobre a área colhida, produção em toneladas, quantidade de sacas (60kg), produção (kg/ha) e faixa de produção , e realiza uma série de cálculos estatísticos, gerando gráfico de Produção de Milho e Soja por Região para facilitar a interpretação dos resultados. 
+Este repositório contém scripts desenvolvidos em R para análise estatística e visualização de dados de Produção de Milho e Soja em diversas regiões do Brasil. O projeto utiliza um arquivo Excel com informações detalhadas sobre a área colhida, produção em toneladas, quantidade de sacas (60kg), produção (kg/ha) e faixa de produção , e realiza uma série de cálculos estatísticos, gerando gráfico de Produção de Milho e Soja por Região para facilitar a interpretação dos resultados. 
 
 ## Fonte dos Dados
 
@@ -49,7 +49,9 @@ No arquivo milho_soja.xlsx, foram utilizadas diferentes classificações de vari
 - Faixa de Produção (Baixa, Média, Alta): a classificação ordinal da produção de milho e soja foi definida com base na quantidade produzida por hectare (kg/ha), utilizando os seguintes intervalos:
 
 Baixa: produção menor que 2500 kg/ha;
+
 Média: produção entre 2500 e 4000 kg/ha;
+
 Alta: produção maior que 4000 kg/ha.
 
 Essas variáveis foram analisadas ao longo do projeto para extrair informações úteis sobre a produção de milho e soja no Brasil.
@@ -64,8 +66,14 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## Funcionalidades
 Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_soja.xlsx, contendo as colunas referentes à produção de milho e soja.
+
 Cálculos Estatísticos: Funções em R foram desenvolvidas para calcular as principais medidas estatísticas das culturas analisadas.
+- Medidas de Tendência Central: média, mediana e moda.
+- Medidas de Dispersão: variância, desvio padrão e amplitude.
+- Medidas Separatrizes (Quartis): divisão dos dados em quartis.
+
 Visualização Gráfica: A biblioteca ggplot2 é utilizada para gerar gráficos de barras que comparam a produção entre as regiões.
+
 Automação da Visualização: O gráfico gerado é salvo como grafico_milho_soja.pdf e aberto automaticamente 10 segundos após a exibição dos cálculos estatísticos.
 
 ## 🔧 Como executar o código
