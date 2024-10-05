@@ -47,6 +47,7 @@ No arquivo milho_soja.xlsx, foram utilizadas diferentes classificações de vari
 4. Variável Qualitativa Ordinal:
 
 - Faixa de Produção (Baixa, Média, Alta): a classificação ordinal da produção de milho e soja foi definida com base na quantidade produzida por hectare (kg/ha), utilizando os seguintes intervalos:
+
 Baixa: produção menor que 2500 kg/ha;
 Média: produção entre 2500 e 4000 kg/ha;
 Alta: produção maior que 4000 kg/ha.
