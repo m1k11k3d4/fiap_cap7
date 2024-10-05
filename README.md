@@ -58,8 +58,6 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>scripts</b>: milho_soja.R e milho_soja.xlsx
 
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
-
 ## 📌 Funcionalidades
 Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_soja.xlsx, contendo as colunas referentes à produção de milho e soja.
 
