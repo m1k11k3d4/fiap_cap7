@@ -79,9 +79,9 @@ Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_
 Certifique-se de ter os pacotes readxl, ggplot2 e tidyr instalados no seu ambiente R. Você pode instalá-los com os seguintes comandos:
   
    ```sh
-   install.packages("readxl")
-   install.packages("ggplot2")
-   install.packages("tidyr")
+      install.packages("readxl")
+      install.packages("ggplot2")
+      install.packages("tidyr")
     ```
 
 2. Execução: Execute o script milho_soja.R. O script carregará o arquivo milho_soja.xlsx e realizará os seguintes passos:
@@ -97,24 +97,24 @@ O gráfico será salvo como grafico_milho_soja.pdf e aberto automaticamente apó
 ## Exemplo de Execução
 Após a execução do script, você verá os resultados estatísticos formatados da seguinte maneira:
    ```sh
-Estatísticas para Milho
-============================
-Medidas de Tendência Central
-----------------------------
-Média: 4.712.508,79
-Mediana: 1.289.831,00
-Moda: 0,00
-
-Medidas de Dispersão
-----------------------------
-Variância: 102.329.797.170.074,09
-Desvio Padrão: 10.115.819,15
-Amplitude: 50.241.972,00
-
-Medidas Separatrizes (Quartis)
-----------------------------
-1º Quartil (25%): 64.533,50
-2º Quartil (50% - Mediana): 1.289.831,00
-3º Quartil (75%): 3.312.917,00
-============================
+      Estatísticas para Milho
+      ============================
+      Medidas de Tendência Central
+      ----------------------------
+      Média: 4.712.508,79
+      Mediana: 1.289.831,00
+      Moda: 0,00
+      
+      Medidas de Dispersão
+      ----------------------------
+      Variância: 102.329.797.170.074,09
+      Desvio Padrão: 10.115.819,15
+      Amplitude: 50.241.972,00
+      
+      Medidas Separatrizes (Quartis)
+      ----------------------------
+      1º Quartil (25%): 64.533,50
+      2º Quartil (50% - Mediana): 1.289.831,00
+      3º Quartil (75%): 3.312.917,00
+      ============================
     ```
