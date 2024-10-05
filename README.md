@@ -32,27 +32,23 @@ Os dados usados para criar o arquivo milho_soja.xlsx foram obtidos do <a href="h
 No arquivo milho_soja.xlsx, foram utilizadas diferentes classificações de variáveis, de acordo com suas características:
 
 1. Variável Quantitativa Discreta:
-
 - Quantidade de Sacas (60kg): número de sacas produzidas, que é uma contagem exata, representando uma variável numérica discreta.
 
 2. Variável Quantitativa Contínua:
-
 - Área Colhida (hectares): área total em hectares das culturas colhidas, uma variável que pode assumir valores contínuos.
 - Produção (toneladas): total de produção em toneladas, uma medida contínua que representa a quantidade de milho e soja colhida.
 
 3. Variável Qualitativa Nominal:
-
 - Região: a unidade federativa (UF) ou região onde as culturas foram colhidas, categorizada como uma variável nominal, sem ordem definida entre os elementos.
 
 4. Variável Qualitativa Ordinal:
-
 - Faixa de Produção (Baixa, Média, Alta): a classificação ordinal da produção de milho e soja foi definida com base na quantidade produzida por hectare (kg/ha), utilizando os seguintes intervalos:
 
-Baixa: produção menor que 2500 kg/ha;
+   Baixa: produção menor que 2500 kg/ha;
 
-Média: produção entre 2500 e 4000 kg/ha;
+   Média: produção entre 2500 e 4000 kg/ha;
 
-Alta: produção maior que 4000 kg/ha.
+   Alta: produção maior que 4000 kg/ha.
 
 Essas variáveis foram analisadas ao longo do projeto para extrair informações úteis sobre a produção de milho e soja no Brasil.
 
@@ -67,18 +63,20 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ## Funcionalidades
 Leitura de Arquivo Excel: O script lê os dados diretamente de um arquivo milho_soja.xlsx, contendo as colunas referentes à produção de milho e soja.
 
-Cálculos Estatísticos: Funções em R foram desenvolvidas para calcular as principais medidas estatísticas das culturas analisadas.
+1. Cálculos Estatísticos: Funções em R foram desenvolvidas para calcular as principais medidas estatísticas das culturas analisadas.
 - Medidas de Tendência Central: média, mediana e moda.
 - Medidas de Dispersão: variância, desvio padrão e amplitude.
 - Medidas Separatrizes (Quartis): divisão dos dados em quartis.
 
-Visualização Gráfica: A biblioteca ggplot2 é utilizada para gerar gráficos de barras que comparam a produção entre as regiões.
+2. Visualização Gráfica: A biblioteca ggplot2 é utilizada para gerar gráficos de barras que comparam a produção entre as regiões.
 
-Automação da Visualização: O gráfico gerado é salvo como grafico_milho_soja.pdf e aberto automaticamente 10 segundos após a exibição dos cálculos estatísticos.
+3. Automação da Visualização: O gráfico gerado é salvo como grafico_milho_soja.pdf e aberto automaticamente 10 segundos após a exibição dos cálculos estatísticos.
 
 ## 🔧 Como executar o código
 
-1. Pré-requisitos: Certifique-se de ter os pacotes readxl, ggplot2 e tidyr instalados no seu ambiente R. Você pode instalá-los com os seguintes comandos:
+1. Pré-requisitos:
+
+Certifique-se de ter os pacotes readxl, ggplot2 e tidyr instalados no seu ambiente R. Você pode instalá-los com os seguintes comandos:
    ```sh
    install.packages("readxl")
    install.packages("ggplot2")
@@ -87,7 +85,9 @@ Automação da Visualização: O gráfico gerado é salvo como grafico_milho_soj
 2. Execução: Execute o script milho_soja.R. O script carregará o arquivo milho_soja.xlsx e realizará os seguintes passos:
 
 Exibirá as medidas de tendência central, dispersão e separatrizes na tela.
+
 Criará um gráfico comparativo de produção de milho e soja por região.
+
 O gráfico será salvo como grafico_milho_soja.pdf e aberto automaticamente após 10 segundos.
 
 3. O script exibirá as estatísticas calculadas diretamente no terminal e abrirá o gráfico gerado no PDF.
