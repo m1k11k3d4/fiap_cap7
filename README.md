@@ -8,7 +8,7 @@
 
 # Cap 7 - Decolando com ciências de dados
 
-## Nome do grupo
+## Grupo 9
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/miki-ikeda-880a141b2/">Miki Ikeda</a>
